@@ -4,5 +4,6 @@ public class Main {
         list.addLast(10);
         list.addLast(20);
         list.addLast(30);
+        list.addFirst(5);
     }
 }

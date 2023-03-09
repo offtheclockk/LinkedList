@@ -23,6 +23,16 @@ public class LinkedList {
     }
 
     //addFirst
+    public void addFirst(int item) {
+        var node = new Node(item);
+
+        if (first == null)
+            first = last = node;
+        else {
+            node.next = first;
+            first = node;
+        }
+    }
 
     //deleteFirst
 
