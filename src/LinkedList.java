@@ -54,7 +54,27 @@ public class LinkedList {
 
     }
 
-    // deleteLast
+    // removeLast
+    public void removeLast() {
+        if (isEmpty())
+            throw new NoSuchElementException();
+        if (first == last) {
+            first = last = null;
+            return;
+        }
+        var previous = getPrevious(last);
+        last = previous;
+        last.next = null;
+    }
+
+    private Node getPrevious(Node node) {
+        var current = first;
+        while (current != null) {
+            if (current.next == node) return current;
+            current = current.next;
+        }
+        return null;
+    }
 
     //contains
     public boolean contains(int item) {
