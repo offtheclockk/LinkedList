@@ -47,16 +47,14 @@ public class LinkedList {
     public void removeFirst() {
         if (isEmpty())
             throw new NoSuchElementException();
-        if (first == last) {
+        if (first == last)
             first = last = null;
-            return;
+        else {
+            var second = first.next;
+            first.next = null;
+            first = second;
         }
-        var second = first.next;
-        first.next = null;
-        first = second;
-
         size--;
-
     }
 
     // removeLast
