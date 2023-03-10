@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9371191-6b8a-4783-a8c8-b68513c20d85" name="Changes" comment="Implement removeFirst() method">
+    <list default="true" id="b9371191-6b8a-4783-a8c8-b68513c20d85" name="Changes" comment="Implement removeLast() method">
       <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678486237011</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implement removeLast() method">
+      <created>1678486694619</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678486694619</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,7 +115,8 @@
     <MESSAGE value="Implement indexOf() method" />
     <MESSAGE value="Implement contains() method" />
     <MESSAGE value="Implement removeFirst() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement removeFirst() method" />
+    <MESSAGE value="Implement removeLast() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement removeLast() method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
