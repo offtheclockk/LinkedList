@@ -6,6 +6,6 @@ public class Main {
         list.addLast(30);
         list.addFirst(5);
         list.indexOf(10);
-        System.out.println(list.indexOf(40));
+        System.out.println(list.contains(40));
     }
 }
