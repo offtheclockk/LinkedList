@@ -7,6 +7,7 @@ public class Main {
         list.addLast(20);
         list.addLast(30);
 
+        list.reverse();
         var array = list.toArray();
         System.out.println(Arrays.toString(array));
     }

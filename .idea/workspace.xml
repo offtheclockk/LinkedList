@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9371191-6b8a-4783-a8c8-b68513c20d85" name="Changes" comment="Implement size() method">
+    <list default="true" id="b9371191-6b8a-4783-a8c8-b68513c20d85" name="Changes" comment="Implement toArray() method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
     </list>
@@ -119,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678487135437</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implement toArray() method">
+      <created>1679087029775</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679087029775</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,14 +139,15 @@
     <MESSAGE value="Implement removeFirst() method" />
     <MESSAGE value="Implement removeLast() method" />
     <MESSAGE value="Implement size() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement size() method" />
+    <MESSAGE value="Implement toArray() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement toArray() method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
+          <line>11</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
