@@ -6,9 +6,8 @@ public class Main {
         list.addLast(10);
         list.addLast(20);
         list.addLast(30);
-
-        list.reverse();
-        var array = list.toArray();
-        System.out.println(Arrays.toString(array));
+        list.addLast(40);
+        list.addLast(50);
+        System.out.println(list.getKthFromTheEnd(-1));
     }
 }
